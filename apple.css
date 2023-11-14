@@ -57,6 +57,11 @@ svg{
     text-align: center;
 }
 .img-macbook{
+   
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/macbook-pro-14-and-16/hero_mbp__fx6ku12vgw2m_large.jpg);
+    
+}
+.img-edit{
     align-items: center;
     justify-content: center;
     background-size: cover;
@@ -65,26 +70,27 @@ svg{
     height: 624px;
     background-size: 3008px 624px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/home/bf/images/heroes/macbook-pro-14-and-16/hero_mbp__fx6ku12vgw2m_large.jpg);
-}
-.img-macbook{
     text-align: center;
     padding-top: 91px;
     margin-top: 91;
 }
-.headline {
-    font-size: 56px;
-    line-height: 1.07143;
-    font-weight: 600;
-    letter-spacing: -.005em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+.macbook-headline{
+    
     color: #1d1d1f;
+    
+}
+.headline-edit{
     text-align: center;
     display: block;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 h2{
     width: auto;
@@ -97,15 +103,16 @@ h3 {
     font-size: 1.17em;
     
 }
-.subhead{
-    
+.macbook-subhead{
+    color: #1d1d1f;
+}
+.subhead-edit{
     font-size: 28px;
     line-height: 1.10722;
     font-weight: 400;
     letter-spacing: .004em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin-top: 6px;
-    color: #1d1d1f;
 }
 
 a{
@@ -120,6 +127,15 @@ a{
 }
 .anchor{
     margin-top: 15px;
+}
+.img-iohone{
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
+}
+.iphone-headline{
+color: #e21646;
+}
+.iphone-subhead{
+    color:#e21646;
 }
 
 
