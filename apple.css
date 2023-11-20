@@ -64,7 +64,6 @@ svg{
 .img-edit{
     align-items: center;
     justify-content: center;
-    background-size: cover;
     background-position: center;
     width: 3008;
     height: 624px;
@@ -73,16 +72,12 @@ svg{
     text-align: center;
     padding-top: 91px;
     margin-top: 91;
-}
-.macbook-headline{
-    
-    color: #1d1d1f;
-    
+    margin-bottom: 10px;
 }
 .headline-edit{
     text-align: center;
     display: block;
-    width: 100%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -91,6 +86,7 @@ svg{
     font-weight: 600;
     letter-spacing: -.005em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #1d1d1f;
 }
 h2{
     width: auto;
@@ -103,9 +99,6 @@ h3 {
     font-size: 1.17em;
     
 }
-.macbook-subhead{
-    color: #1d1d1f;
-}
 .subhead-edit{
     font-size: 28px;
     line-height: 1.10722;
@@ -113,6 +106,7 @@ h3 {
     letter-spacing: .004em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin-top: 6px;
+    color: #1d1d1f;
 }
 
 a{
@@ -121,22 +115,81 @@ a{
     font-weight: 400;
     letter-spacing: .011em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    color: #06c;
+    color: rgb(41, 151, 255);
     letter-spacing: inherit;
     margin-right: 35px;
 }
 .anchor{
-    margin-top: 15px;
+    margin-top: 20px;
 }
-.img-iohone{
+.img-iphone{
     background-image: url(https://www.apple.com/v/home/bf/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
+
 }
 .iphone-headline{
-color: #e21646;
+color:  #f5f5f7;
 }
 .iphone-subhead{
-    color:#e21646;
+    color: #f5f5f7;
 }
+.img-iphone-new{
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg);
+}
+.second-main{
+    padding: 0 1px;
+    display: grid;
+}
+.sub-second-main{
+
+width: auto;
+    box-sizing:border-box;
+    overflow: visible;
+    
+    display: flex;
+    
+    flex-direction:column;
+    padding: 10px;
+}
+.sub-second-main .imgDiv {
+    width: auto;
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.imgDiv img {
+
+width:631px;
+height: 580px;
+background-size:631px 580px;
+}
+ 
+.subimgOne{
+  background-image: url(https://www.apple.com/v/home/bf/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg);
+  background-image: url(https://www.apple.com/v/home/bf/images/heroes/macbook-pro-14-and-16/hero_mbp__fx6ku12vgw2m_large.jpg);
+}
+
+.subimgTwo{
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/holiday-2023/holiday_2023_promo__dirvdl6a3r2a_large_2x.jpg);
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg);
+}
+.hafimg{
+    width:631px;
+    height: 580px;
+    background-size:631px 580px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
